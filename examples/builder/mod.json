@@ -1,0 +1,7 @@
+{
+  "id": "builder",
+  "name": "Builder Tools",
+  "version": "1.0.0",
+  "api": 1,
+  "enabled": true
+}

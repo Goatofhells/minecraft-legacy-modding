@@ -1,0 +1,5 @@
+{
+  "json.schemas": [
+    { "fileMatch": ["/examples/*/mod.json"], "url": "./schemas/mod.schema.json" }
+  ]
+}

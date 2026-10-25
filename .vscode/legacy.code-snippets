@@ -1,0 +1,14 @@
+{
+  "Legacy command": {
+    "scope": "lua",
+    "prefix": "legacycmd",
+    "body": ["legacy.command(\"${1:hello}\", function(name, args)", "    ${2:legacy.message(name, \"Hello\")}", "end)"],
+    "description": "Register a namespaced mod command"
+  },
+  "Legacy event": {
+    "scope": "lua",
+    "prefix": "legacyevent",
+    "body": ["legacy.on(\"${1:join}\", function(${2:name})", "    $0", "end)"],
+    "description": "Register a game event callback"
+  }
+}
